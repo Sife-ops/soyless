@@ -1,0 +1,112 @@
+:root {
+    --borderColor: #555;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: sans-serif;
+    padding: 2ex;
+    margin: 0;
+}
+
+#header a, #menu a, #nav a {
+    text-decoration:  none;
+    color: #555;
+}
+
+#header {
+    margin: 0 0 1ex 0;
+    /* border-bottom: 1px solid var(--borderColor); */
+}
+
+#headerLogo {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#headerSubtitle {
+    display:  table-cell;
+    height: 51px;
+    vertical-align:  middle;
+}
+
+#headerSubtitle a {
+    margin: 0 0 0 2ex;
+    font-style:  italic;
+}
+
+#nav {
+    padding: 0 0 0 0.7ex;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+#nav a {
+    padding: 0 0.7ex 0 0;
+    position: relative;
+    top: 2px;
+    border-right: 1px solid var(--borderColor);
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    float: left;
+    width: 200px;
+}
+
+#menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul li {
+    padding:  0.7ex 0.7ex 0.5ex 0.7ex;
+    list-style-type:  none;
+    border-bottom: 1px dotted var(--borderColor);
+}
+
+#menu ul li:hover {
+    background-color:  #555;
+    color: #fff;
+}
+
+#main {
+    margin: 0 0 0 201px;
+    border-left: 1px solid var(--borderColor);
+}
+
+.article {
+    margin: 0 0 10px 1px;
+    padding: 10px 0 10px 10px;
+    border-bottom: 1px dotted var(--borderColor);
+}
+
+.article h2 {
+    margin: 0;
+}
+
+.article img {
+    display: block;
+    /* margin: auto; */
+    max-width: 100%;
+}
+
+.quote {
+    margin: 0 0 0 1em;
+    padding: 0 0 0 1em;
+    border-left: 1px solid var(--borderColor);
+}
+
+.code {
+    /* color: green; */
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.3em;
+    border: 1px solid var(--borderColor);
+    border-left: 5px solid var(--borderColor);
+    border-radius: 5px;
+}
