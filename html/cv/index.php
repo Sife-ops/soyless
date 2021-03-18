@@ -1,21 +1,22 @@
-<html>
+<!doctype html>
+<html lang="en">
     <head>
-        <title>CV of Wyatt Goettsch</title>
+        <meta charset="UTF-8"/>
+        <title>Resume of Wyatt Goettsch</title>
+        <!-- <link rel="stylesheet" type="text/css" href="/style.css"> -->
         <link rel=stylesheet type="text/css" href="/cv/style.css" title="normal">
-        <!-- <script type="text/javascript" src="/wikipages/css/mktree.js"></script> -->
     </head>
-
-<body>
+    <body>
 
 <h1><a name="ResumeOfWyattGoettsch"></a>Resume of Wyatt Goettsch</h1>
 
 <div class="deeper">
 
     <!-- <a href="https://bisqwit.iki.fi/jutut/kuvat/cv_thu2.jpg"><img src="https://bisqwit.iki.fi/jutut/kuvat/cv_thu2.jpg" class="embedright" alt="right"/></a> -->
-    <a href="https://soyless.xyz/cv/wyatt_goettsch.jpg"><img src="https://soyless.xyz/cv/wyatt_goettsch.jpg" class="embedright" alt="right"/></a>
+    <a href="https://soyless.xyz/cv/wyatt_goettsch.jpg"><img src="wyatt_goettsch.jpg" class="embedright" alt="right"/></a>
 
-    As of: <b>2020-08-14</b> <br/>
-    The permanent address of this page: <a class="extlink" id="i87F31C07" href="https://soyless.xyz/cv">https://soyless.xyz/cv</a>
+    <!-- As of: <b>2020-08-14</b> <br/> -->
+    <!-- The permanent address of this page: <a class="extlink" id="i87F31C07" href="https://soyless.xyz/cv">https://soyless.xyz/cv</a> -->
 
     <h2><a name="Personal"></a>PERSONAL</h2>
 
@@ -318,9 +319,9 @@
                 </li>
             </ul>
 
-            <p/>I devote much of my free time to developing and exploring software and software technologies.
-            I am a hobbyist Linux hacker, as well as a Nao robot developer.
-            <p/>I’m a free software enthusiast (as per Free Software Foundation definition of “free”).
+            <p/>I am a hobbyist Linux hacker.
+            I devote much of my free time to developing and exploring software and software technologies.
+            I am a free software enthusiast (as per Free Software Foundation definition of “free”).
 
         </div>
 
