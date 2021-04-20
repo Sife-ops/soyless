@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Field Trip Survey</title>
+</head>
+<body>
+
+    <h1 id="title">Field Trip Survey</h1>
+
+    <p id="description">Student Information</p>
+
+    <form action="example" id="survey-form">
+
+        <!-- name -->
+        <div>
+            <label for="name" id="name-label">
+                student name
+                <input id="name" type="text" placeholder="child name" required>
+            </label>
+        <div>
+        <br>
+
+        <!-- email -->
+        </div>
+            <label for="email" id="email-label">
+                parental contact
+                <input id="email" type="email" placeholder="parent email" required>
+            </label>
+        <div>
+        <br>
+
+        <!-- number -->
+        </div>
+            <label for="number" id="number-label">
+                age
+                <input id="number" type="number" min="3" max="5">
+            </label>
+        </div>
+        <br>
+
+        <!-- dropdown -->
+        <div>
+            <label for="dropdown" id="dropdown-label">
+                Gender:
+                <select name = "dropdown">
+                    <option value = "boy">boy</option>
+                    <option value = "girl">girl</option>
+                </select>
+            </label>
+        </div>
+        <br>
+
+        <!-- radio buttons... -->
+        <div>
+            preferred meal
+            <br>
+            <label for="burger" id="burger-label"> 
+                <input id="burger" type="radio" name="menu" value="burger" checked>burger 
+            </label>
+            <label for="salad" id="salad-label"> 
+
+                <input id="salad" type="radio" name="menu" value="salad">salad 
+            </label>
+        </div>
+        <br>
+
+        <!-- checkboxes -->
+        <div>
+            <label for="first" id="first-label">
+                Is this their first field trip?
+                <input id="first" type="checkbox" name="first" value="first">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="agree" id="agree-label">
+                Is your kid ready to go on rides?
+                <input id="agree" type="checkbox" name="agree" value="agree">
+            </label>
+        </div>
+        <br>
+
+        <!-- textarea -->
+        <div>
+            <label for="concerns" id="concerns-label">
+                Other concerns:
+                <input id="concerns" type="textarea" name="concerns">
+            </label>
+        </div>
+        <br>
+
+        <!-- submit button -->
+        <div>
+            <button id="submit" type="submit">submit</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
