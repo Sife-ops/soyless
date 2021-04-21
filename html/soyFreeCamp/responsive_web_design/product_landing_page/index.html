@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <header id="header">
+
+        <!-- find an image -->
+        <div class="logo">
+            <img
+                id="header-img"
+                src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/floppy-icon.png"
+                alt="example" />
+        </div>
+        
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">features</a></li>
+                <li><a class="nav-link" href="#preview">preview</a></li>
+                <li><a class="nav-link" href="#downloads">downloads</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- form -->
+    <section id="hero">
+
+        <h2>Join our mailing list</h2>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+                name="email"
+                id="email"
+                type="email"
+                placeholder="Enter your email address"
+                required />
+            <input id="submit" type="submit" value="sign up" class="btn" />
+        </form>
+
+    </section>
+
+
+    <div class="container">
+
+        <!-- flex -->
+        <section id="features">
+
+            <div class="grid">
+                <!-- <div class="icon"><i class="fa fa-3x fa-fire"></i></div> -->
+                <div class="icon"><i class="fa fa-3x fa-fighter-jet" aria-hidden="true"></i> </div>
+
+                <div class="desc">
+                    <h2>Speed</h2>
+                    <p>
+                        Faster than other software.
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon"><i class="fa fa-3x fa-life-ring"></i></div>
+                <div class="desc">
+                    <h2>Ethically Sourced</h2>
+                    <p>
+                        No programmers were harmed.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- video -->
+        <section id="preview">
+            <iframe 
+                id="video" 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/BTB86HeZVwk?controls=0" 
+                frameborder="0" 
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <section id="downloads">
+            <div id="os-choice">
+                Windows
+                <a href="#" target="_blank">
+                    <img src="https://techgage.com/wp-content/uploads/2014/03/Windows_logo_-_2012.png">
+                </a>
+            </div>
+
+            <div id="os-choice">
+                Mac
+                <a href="#" target="_blank">
+                    <img src="https://media.idownloadblog.com/wp-content/uploads/2018/07/Apple-logo-black-and-white.png">
+                </a>
+            </div>
+
+            <div id="os-choice">
+                Linux
+                <a href="#" target="_blank">
+                    <img src="https://clipground.com/images/linux-logo-png-10.png">
+                </a>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
