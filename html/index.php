@@ -12,7 +12,7 @@
             <div class="article" >
                 <!-- <img src="/images/xyzsh.svg" alt="xyzsh logo"> -->
                 <!-- <p>Download xyZSH <a  href="/xyzsh">here</a>. </p> -->
-                <h2> <a href="/tutorials/bookmarks">The best bookmark solution I've found (so far).</a> </h2>
+                <h2> <a href="/tutorials/bookmarks">(yuki will you marry me???) ;) The best bookmark solution I've found (so far).</a> </h2>
                 Fri Feb 19 07:45:09 PM PST 2021
             </div>
 
